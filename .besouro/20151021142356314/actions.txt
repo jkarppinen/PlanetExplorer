@@ -4,3 +4,10 @@ RefactoringAction 1445427536054 PlanetExplorer.java ADD int location_x FIELD
 RefactoringAction 1445427575173 PlanetExplorer.java REMOVE location_y FIELD
 RefactoringAction 1445427575174 PlanetExplorer.java REMOVE location_x FIELD
 EditAction 1445427587084 PlanetExplorer.java 1350 2 1 0
+UnitTestCaseAction 1445427587797 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445427587800 TestPlanetExplorer FAIL
+RefactoringAction 1445427714572 Planet.java ADD Planet.java CLASS
+FileOpenedAction 1445427714720 Planet.java 80 0 0 0
+RefactoringAction 1445427745264 TestPlanetExplorer.java RENAME test()=>void testCreate() METHOD
+RefactoringAction 1445427748279 TestPlanetExplorer.java RENAME testCreate()=>void testPlanet() METHOD
+EditAction 1445427752206 TestPlanetExplorer.java 234 1 1 0
