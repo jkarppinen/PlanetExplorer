@@ -67,7 +67,6 @@ public class PlanetExplorer {
 		}
 		if(command == "r"){
 			this.setPosition("E");
-			
 		}
 		/* The command string is composed of "f" (forward), "b" (backward), "l" (left) and "r" (right)
 		 * Example: 
