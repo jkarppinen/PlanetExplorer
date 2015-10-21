@@ -146,3 +146,6 @@ RefactoringAction 1445428664224 TestPlanetExplorer.java RENAME execute()=>void e
 RefactoringAction 1445428674741 TestPlanetExplorer.java RENAME executeC()=>void initEmptyExecuteCommand() METHOD
 EditAction 1445428690338 TestPlanetExplorer.java 929 4 10 6
 EditAction 1445428696955 TestPlanetExplorer.java 887 4 9 5
+UnitTestCaseAction 1445428699529 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445428699530 TestPlanetExplorer FAIL
+EditAction 1445428756505 PlanetExplorer.java 2193 10 10 0
