@@ -16,6 +16,7 @@ public class Planet {
 	public void setSizeY(int sizeY) {
 		this.sizeY = sizeY;
 	}
+	
 	public Planet(int x, int y){
 		this.setSizeX(x);
 		this.setSizeY(y);
