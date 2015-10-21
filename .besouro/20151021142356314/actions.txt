@@ -188,3 +188,4 @@ RefactoringAction 1445429059760 TestPlanetExplorer.java ADD void initTurnRightGe
 RefactoringAction 1445429063296 TestPlanetExplorer.java RENAME initTurnRightGetPosition()/2=>void initTurnRightTGetPosition() METHOD
 RefactoringAction 1445429064316 TestPlanetExplorer.java RENAME initTurnRightTGetPosition()=>void initTurnRightTwiceGetPosition() METHOD
 EditAction 1445429066481 TestPlanetExplorer.java 1392 7 17 8
+EditAction 1445429069437 TestPlanetExplorer.java 1393 7 17 8
