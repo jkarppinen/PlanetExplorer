@@ -3,6 +3,8 @@ package org.unioulu.tol.sqat2015.planetExplorer;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.sun.xml.internal.bind.v2.runtime.reflect.ListIterator;
+
 // Before submitting write your ID and finish time here. Your ID is written on project description sheets.
 // ID: 108
 // Finish time: 
@@ -80,8 +82,9 @@ public class PlanetExplorer {
 		positions.add("E");
 		positions.add("S");
 		positions.add("W");
-		ListIterator<String> listIterator = positions.listIterator(positions.size());
+		ListIterator<String> listIterator = (ListIterator<String>) positions.listIterator(positions.size());
 		
+		int current = Arrays.asList(positions).indexOf(this.getPosition());
 		if(command.length() == 0){
 			return "("+this.getLocationX()+","+this.getLocationY()+",N)";
 		}
