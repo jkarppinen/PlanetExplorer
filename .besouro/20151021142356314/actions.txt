@@ -561,3 +561,8 @@ UnitTestCaseAction 1445432404388 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1445432404388 TestPlanetExplorer FAIL
 EditAction 1445432517910 TestPlanetExplorer.java 2409 12 33 13
 EditAction 1445432523027 TestPlanetExplorer.java 2409 12 33 13
+UnitTestCaseAction 1445432529073 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445432529073 TestPlanetExplorer.getPlanetSizeXAndY OK
+UnitTestCaseAction 1445432532276 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445432532276 TestPlanetExplorer FAIL
+EditAction 1445432636549 PlanetExplorer.java 3412 13 18 0

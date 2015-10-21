@@ -97,7 +97,7 @@ public class PlanetExplorer {
 			if(command_arr[i] == "f"){
 				this.setLocationY(this.getLocationY() + 1);
 			}
-			
+			System.out.println(command_arr[i] + " " + i)
 			if(command_arr[i] == "r"){
 				int new_position = this.getPosition_id() + 1;
 				this.setPosition_id(new_position);
