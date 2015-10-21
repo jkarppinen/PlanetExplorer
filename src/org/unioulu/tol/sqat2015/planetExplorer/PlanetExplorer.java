@@ -13,6 +13,14 @@ public class PlanetExplorer {
 	private int planetSizeY;
 	private String position = "N";
 	private int position_id = 0;
+	public int getPosition_id() {
+		return position_id;
+	}
+
+	public void setPosition_id(int position_id) {
+		this.position_id = position_id;
+	}
+
 	public String getPosition() {
 		return position;
 	}
@@ -65,7 +73,8 @@ public class PlanetExplorer {
 		this.planetSizeY = planetSizeY;
 	}
 
-	public int getPositionById(int id){
+	public int getPosition2(){
+		int pos = this.getPosition_id()
 		List<String> positions = new ArrayList<String>();
 		positions.add("N");
 		positions.add("E");
