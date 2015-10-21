@@ -85,7 +85,7 @@ public class TestPlanetExplorer {
 	}	
 	
 	@Test
-	public void getDirectionsLetterS(){
+	public void getDirectionsLetter_S(){
 		List<String> positions = new ArrayList<String>();
 		positions.add("N");
 		positions.add("E");
