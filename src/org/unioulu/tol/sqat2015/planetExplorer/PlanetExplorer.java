@@ -73,24 +73,6 @@ public class PlanetExplorer {
 		this.planetSizeY = planetSizeY;
 	}
 
-	public int getPosition2(){
-		int pos = this.getPosition_id();
-		List<String> positions = new ArrayList<String>();
-		positions.add("N");
-		positions.add("E");
-		positions.add("S");
-		positions.add("W");
-		
-		if(pos < 0){
-			this.setPosition_id(4 + pos);
-			pos = this.getPosition_id();
-		}
-		
-		return positions[pos];
-		
-		
-		return 0;
-	}
 	
 	public String executeCommand(String command){
 		List<String> positions = new ArrayList<String>();
@@ -98,6 +80,7 @@ public class PlanetExplorer {
 		positions.add("E");
 		positions.add("S");
 		positions.add("W");
+		ListIterator<String> listIterator = positions.listIterator(positions.size());
 		
 		if(command.length() == 0){
 			return "("+this.getLocationX()+","+this.getLocationY()+",N)";
