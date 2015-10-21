@@ -106,3 +106,7 @@ UnitTestCaseAction 1445428367865 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1445428367866 TestPlanetExplorer FAIL
 RefactoringAction 1445428372578 PlanetExplorer.java ADD int locationX/2 FIELD
 EditAction 1445428374164 PlanetExplorer.java 1543 4 3 0
+CompilationAction 1445428374431 TestPlanetExplorer.java
+RefactoringAction 1445428383605 PlanetExplorer.java ADD int getLocationY() METHOD
+RefactoringAction 1445428383607 PlanetExplorer.java ADD void setLocationY(int) METHOD
+EditAction 1445428384435 PlanetExplorer.java 1681 6 5 0

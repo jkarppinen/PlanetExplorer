@@ -6,6 +6,14 @@ package org.unioulu.tol.sqat2015.planetExplorer;
 public class PlanetExplorer {
 	private int locationX = 0;
 	private int locationY = 0;
+	public int getLocationY() {
+		return locationY;
+	}
+
+	public void setLocationY(int locationY) {
+		this.locationY = locationY;
+	}
+
 	public int getLocationX() {
 		return locationX;
 	}
