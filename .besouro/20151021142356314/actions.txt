@@ -85,3 +85,11 @@ UnitTestSessionAction 1445428226640 TestPlanetExplorer OK
 UnitTestCaseAction 1445428286433 TestPlanetExplorer.java OK
 UnitTestSessionAction 1445428286433 TestPlanetExplorer.initPlanetExplorerLocation OK
 EditAction 1445428311907 TestPlanetExplorer.java 379 1 2 1
+CompilationAction 1445428312153 TestPlanetExplorer.java
+UnitTestCaseAction 1445428318303 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445428318303 TestPlanetExplorer FAIL
+RefactoringAction 1445428329009 PlanetExplorer.java ADD int location FIELD
+RefactoringAction 1445428331023 PlanetExplorer.java RENAME location=>int locationX FIELD
+RefactoringAction 1445428342051 PlanetExplorer.java ADD int getLocationX() METHOD
+RefactoringAction 1445428342052 PlanetExplorer.java ADD void setLocationX(int) METHOD
+EditAction 1445428342741 PlanetExplorer.java 1514 4 3 0
