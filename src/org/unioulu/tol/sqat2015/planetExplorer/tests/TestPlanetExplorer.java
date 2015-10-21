@@ -4,6 +4,7 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 import org.unioulu.tol.sqat2015.planetExplorer.Planet;
+import org.unioulu.tol.sqat2015.planetExplorer.PlanetExplorer;
 
 public class TestPlanetExplorer {
 
@@ -18,7 +19,6 @@ public class TestPlanetExplorer {
 	public void landExplorer(){
 		Planet p = new Planet(100,100);
 		PlanetExplorer pe = new PlanetExplorer();
-		
 		
 	}
 }
