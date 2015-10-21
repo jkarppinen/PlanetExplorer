@@ -5,6 +5,7 @@ package org.unioulu.tol.sqat2015.planetExplorer;
 // Finish time: 
 public class PlanetExplorer {
 	private int locationX = 0;
+	private int locationY = 0;
 	public int getLocationX() {
 		return locationX;
 	}
