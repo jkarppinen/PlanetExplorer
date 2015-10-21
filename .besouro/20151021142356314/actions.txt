@@ -93,3 +93,6 @@ RefactoringAction 1445428331023 PlanetExplorer.java RENAME location=>int locatio
 RefactoringAction 1445428342051 PlanetExplorer.java ADD int getLocationX() METHOD
 RefactoringAction 1445428342052 PlanetExplorer.java ADD void setLocationX(int) METHOD
 EditAction 1445428342741 PlanetExplorer.java 1514 4 3 0
+UnitTestCaseAction 1445428346094 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445428346094 TestPlanetExplorer OK
+EditAction 1445428353862 TestPlanetExplorer.java 380 1 2 1
