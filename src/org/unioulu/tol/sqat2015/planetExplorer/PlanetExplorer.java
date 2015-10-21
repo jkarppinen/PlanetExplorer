@@ -85,10 +85,11 @@ public class PlanetExplorer {
 		positions.add("W");
 
 		if(command.length() == 0){
-			return "("+this.getLocationX()+","+this.getLocationY()+","+positions.get(this.getPosition_id()))";
+			return "("+this.getLocationX()+","+this.getLocationY()+","+positions.get(this.getPosition_id())+")";
 		}
 		if(command == "r"){
 			int new_position = ( this.getPosition_id() + 1 ) % 4;
+			this.setPosition_id(new_position);
 			this.setPosition(positions.get(new_position));
 		}
 		/* The command string is composed of "f" (forward), "b" (backward), "l" (left) and "r" (right)
