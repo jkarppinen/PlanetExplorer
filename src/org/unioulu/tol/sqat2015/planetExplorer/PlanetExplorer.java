@@ -23,6 +23,13 @@ public class PlanetExplorer {
 	}
 
 	public String getPosition() {
+		List<String> positions = new ArrayList<String>();
+		positions.add("N");
+		positions.add("E");
+		positions.add("S");
+		positions.add("W");
+		
+		positions.get(this.getPosition_id());
 		return position;
 	}
 
