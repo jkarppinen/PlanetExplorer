@@ -551,3 +551,12 @@ EditAction 1445432276475 TestPlanetExplorer.java 2405 12 33 13
 UnitTestCaseAction 1445432278127 TestPlanetExplorer.java OK
 UnitTestSessionAction 1445432278128 TestPlanetExplorer.getDirectionsLetter_S OK
 EditAction 1445432321188 PlanetExplorer.java 3481 14 29 0
+CompilationAction 1445432327493 PlanetExplorer.java
+UnitTestCaseAction 1445432331493 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445432331493 TestPlanetExplorer.getDirectionsLetter_S OK
+RefactoringAction 1445432391799 PlanetExplorer.java REMOVE setPosition(String) METHOD
+UnitTestCaseAction 1445432396244 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445432396244 TestPlanetExplorer.getDirectionsLetter_S OK
+UnitTestCaseAction 1445432404388 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445432404388 TestPlanetExplorer FAIL
+EditAction 1445432517910 TestPlanetExplorer.java 2409 12 33 13

@@ -12,7 +12,6 @@ public class PlanetExplorer {
 	private int locationY = 0;
 	private int planetSizeX;
 	private int planetSizeY;
-	private String position = "N";
 	private int position_id = 0;
 	
 	public int getPosition_id() {
@@ -32,10 +31,6 @@ public class PlanetExplorer {
 		
 		return positions.get(this.getPosition_id());
 		
-	}
-
-	public void setPosition(String position) {
-		this.position = position;
 	}
 
 	public int getLocationY() {
