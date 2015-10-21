@@ -544,3 +544,6 @@ RefactoringAction 1445432244644 TestPlanetExplorer.java RENAME getDirections()=>
 RefactoringAction 1445432253163 TestPlanetExplorer.java ADD import java.util.ArrayList IMPORT
 RefactoringAction 1445432253163 TestPlanetExplorer.java ADD import java.util.List IMPORT
 EditAction 1445432264756 TestPlanetExplorer.java 2403 12 33 13
+UnitTestCaseAction 1445432267029 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445432267030 TestPlanetExplorer FAIL
+EditAction 1445432274552 TestPlanetExplorer.java 2404 12 33 13
