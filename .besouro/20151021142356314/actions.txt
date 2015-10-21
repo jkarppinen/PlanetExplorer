@@ -115,3 +115,6 @@ UnitTestSessionAction 1445428386549 TestPlanetExplorer OK
 EditAction 1445428413159 TestPlanetExplorer.java 533 2 4 2
 EditAction 1445428418319 TestPlanetExplorer.java 536 2 4 2
 EditAction 1445428419316 TestPlanetExplorer.java 542 2 4 2
+RefactoringAction 1445428429458 TestPlanetExplorer.java ADD void initPlanetExplorerLocationY()/2 METHOD
+RefactoringAction 1445428439473 TestPlanetExplorer.java RENAME initPlanetExplorerLocationY()/2=>void getPlanetSizeX() METHOD
+EditAction 1445428447900 TestPlanetExplorer.java 684 3 6 3

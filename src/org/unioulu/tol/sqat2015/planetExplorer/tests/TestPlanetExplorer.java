@@ -21,6 +21,12 @@ public class TestPlanetExplorer {
 		assertEquals(0,pe.getLocationY());
 	}
 	
+	@Test
+	public void getPlanetSizeX(){
+		PlanetExplorer pe = new PlanetExplorer(100,100,"");
+		assertEquals(0,pe.getPlanetSizeX());
+	}
+	
 	
 	
 }
