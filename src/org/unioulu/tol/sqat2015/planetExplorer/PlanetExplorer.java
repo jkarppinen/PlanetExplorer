@@ -92,7 +92,7 @@ public class PlanetExplorer {
 		for(int i = 0; i<command_arr.length; i++){
 			
 			
-		
+		System.out.println(i);;
 		if(command_arr[i] == "r"){
 			int new_position = ( this.getPosition_id() + 1 ) % 4;
 			//System.out.println(new_position);
