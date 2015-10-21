@@ -11,3 +11,9 @@ FileOpenedAction 1445427714720 Planet.java 80 0 0 0
 RefactoringAction 1445427745264 TestPlanetExplorer.java RENAME test()=>void testCreate() METHOD
 RefactoringAction 1445427748279 TestPlanetExplorer.java RENAME testCreate()=>void testPlanet() METHOD
 EditAction 1445427752206 TestPlanetExplorer.java 234 1 1 0
+RefactoringAction 1445427772813 TestPlanetExplorer.java RENAME testPlanet()=>void testPlanetCe() METHOD
+RefactoringAction 1445427773827 TestPlanetExplorer.java RENAME testPlanetCe()=>void testPlanetC() METHOD
+RefactoringAction 1445427776340 TestPlanetExplorer.java RENAME testPlanetC()=>void testPlanetCreation() METHOD
+RefactoringAction 1445427781488 TestPlanetExplorer.java RENAME testPlanetCreation()=>void testPlanetCreatio() METHOD
+RefactoringAction 1445427782500 TestPlanetExplorer.java RENAME testPlanetCreatio()=>void testPlanetCreation() METHOD
+EditAction 1445427867237 TestPlanetExplorer.java 280 1 2 1

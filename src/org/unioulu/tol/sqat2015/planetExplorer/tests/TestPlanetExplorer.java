@@ -7,7 +7,8 @@ import org.junit.Test;
 public class TestPlanetExplorer {
 
 	@Test
-	public void testPlanet() {
-		fail("Not yet implemented");
+	public void testPlanetCreation() {
+		Planet p = new Planet(100,100);
+		assertEquals(100,p.getSizeX());
 	}
 }
