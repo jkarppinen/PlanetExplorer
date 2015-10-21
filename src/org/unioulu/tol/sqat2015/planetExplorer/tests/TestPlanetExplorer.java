@@ -14,5 +14,11 @@ public class TestPlanetExplorer {
 		assertEquals(100,p.getSizeY());
 	}
 	
-	
+	@Test
+	public void landExplorer(){
+		Planet p = new Planet(100,100);
+		PlanetExplorer pe = new PlanetExplorer();
+		
+		
+	}
 }
