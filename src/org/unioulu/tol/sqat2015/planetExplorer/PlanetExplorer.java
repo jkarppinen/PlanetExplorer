@@ -93,7 +93,7 @@ public class PlanetExplorer {
 		}
 		
 		String[] command_arr = command.split("(?!^)");
-		//System.out.println(command + command_arr.length);
+		System.out.println(command + command_arr.length + " " + new_position);
 		for(int i = 0; i < command_arr.length; i++){
 			
 			if(command_arr[i] == "f"){
