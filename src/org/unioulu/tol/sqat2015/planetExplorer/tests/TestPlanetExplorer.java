@@ -21,4 +21,6 @@ public class TestPlanetExplorer {
 		assertEquals(0,pe.getLocationY());
 	}
 	
+	
+	
 }
