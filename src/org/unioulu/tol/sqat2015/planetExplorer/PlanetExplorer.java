@@ -89,18 +89,17 @@ public class PlanetExplorer {
 		}
 		
 		String[] command_arr = command.split("");
-		for(int i = 0; i<command_arr.length - 1; i++){
+		for(int i = 1; i<command_arr.length; i++){
 			
 			
 		if(command_arr[i] == "r"){
-			int new_position = ( this.getPosition_id() + 1 ) % 4;
+			int new_position = ( this.getPosition_id() + 1 );
 			this.setPosition_id(new_position);
 			this.setPosition(positions.get(new_position));
 		}
 		
 
-		System.out.println("i:"+i);
-		System.out.println("pos:"+new_position);
+		System.out.println(command_arr[i]);
 		
 		}
 		return "("+this.getLocationX()+","+this.getLocationY()+","+positions.get(this.getPosition_id())+")";
