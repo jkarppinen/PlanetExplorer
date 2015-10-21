@@ -390,3 +390,19 @@ RefactoringAction 1445430855611 PlanetExplorer.java ADD void setPosition_id(int)
 RefactoringAction 1445430855612 PlanetExplorer.java ADD String getPosition() METHOD
 RefactoringAction 1445430855612 PlanetExplorer.java ADD void setPosition(String) METHOD
 EditAction 1445430856828 PlanetExplorer.java 3351 14 23 0
+CompilationAction 1445430856956 TestPlanetExplorer.java
+CompilationAction 1445430856956 TestPlanetExplorer.java
+CompilationAction 1445430874518 TestPlanetExplorer.java
+CompilationAction 1445430874518 TestPlanetExplorer.java
+CompilationAction 1445430874679 TestPlanetExplorer.java
+UnitTestCaseAction 1445430878077 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445430878077 TestPlanetExplorer.initTurnRightTwiceGetPosition FAIL
+RefactoringAction 1445430905698 TestPlanetExplorer.java RENAME initTurnRightTwiceGetPosition()/2=>void initTurnRightTwiceGetPositionID() METHOD
+CompilationAction 1445430906338 TestPlanetExplorer.java
+UnitTestCaseAction 1445430907724 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445430907725 TestPlanetExplorer.initTurnRightTwiceGetPositionId FAIL
+UnitTestCaseAction 1445430912450 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445430912450 TestPlanetExplorer FAIL
+RefactoringAction 1445430939731 TestPlanetExplorer.java ADD void initTurnRightTwiceGetPositionId()/2 METHOD
+RefactoringAction 1445430948264 TestPlanetExplorer.java RENAME initTurnRightTwiceGetPositionId()/2=>void initTurnRightTwiceGetNullCommand() METHOD
+EditAction 1445430971684 TestPlanetExplorer.java 1783 9 23 10
