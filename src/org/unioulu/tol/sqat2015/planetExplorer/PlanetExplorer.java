@@ -83,15 +83,15 @@ public class PlanetExplorer {
 		positions.add("E");
 		positions.add("S");
 		positions.add("W");
-
-		if(command.length() == 0){
-			return "("+this.getLocationX()+","+this.getLocationY()+","+positions.get(this.getPosition_id())+")";
-		}
 		if(command == "r"){
 			int new_position = ( this.getPosition_id() + 1 ) ;
 			this.setPosition_id(new_position);
 			//this.setPosition(positions.get(new_position));
 		}
+		if(command.length() == 0){
+			return "("+this.getLocationX()+","+this.getLocationY()+","+positions.get(this.getPosition_id())+")";
+		}
+		
 		/* The command string is composed of "f" (forward), "b" (backward), "l" (left) and "r" (right)
 		 * Example: 
 		 * The explorer is on a 100x100 grid at location (0, 0) and facing NORTH. 
