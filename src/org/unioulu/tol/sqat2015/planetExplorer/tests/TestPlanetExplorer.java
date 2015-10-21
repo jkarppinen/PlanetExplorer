@@ -39,6 +39,13 @@ public class TestPlanetExplorer {
 		PlanetExplorer pe = new PlanetExplorer(100,100,"");
 		pe.executeCommand("r");
 		assertEquals("E",pe.getPosition());
+	}	
+	
+	@Test
+	public void initTurnRightTwiceGetPosition(){
+		PlanetExplorer pe = new PlanetExplorer(100,100,"");
+		pe.executeCommand("r");
+		assertEquals("S",pe.getPosition());
 	}
 
 	@Test

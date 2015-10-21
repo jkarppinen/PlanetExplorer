@@ -182,3 +182,9 @@ UnitTestCaseAction 1445428993464 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1445428993465 TestPlanetExplorer FAIL
 EditAction 1445429045666 PlanetExplorer.java 2422 12 15 0
 EditAction 1445429047769 PlanetExplorer.java 2417 12 15 0
+UnitTestCaseAction 1445429049621 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445429049621 TestPlanetExplorer OK
+RefactoringAction 1445429059760 TestPlanetExplorer.java ADD void initTurnRightGetPosition()/2 METHOD
+RefactoringAction 1445429063296 TestPlanetExplorer.java RENAME initTurnRightGetPosition()/2=>void initTurnRightTGetPosition() METHOD
+RefactoringAction 1445429064316 TestPlanetExplorer.java RENAME initTurnRightTGetPosition()=>void initTurnRightTwiceGetPosition() METHOD
+EditAction 1445429066481 TestPlanetExplorer.java 1392 7 17 8
