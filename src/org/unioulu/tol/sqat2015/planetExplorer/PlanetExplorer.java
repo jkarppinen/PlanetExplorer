@@ -92,13 +92,13 @@ public class PlanetExplorer {
 		String[] command_arr = command.split("");
 		for(int i = 1; i<command_arr.length; i++){
 			
-			
-		if(command_arr[i] == "r"){
-			int new_position = ( this.getPosition_id() + 1 );
-			this.setPosition_id(new_position);
-			System.out.println(this.getPosition_id());
-			this.setPosition(positions.get(this.getPosition_id()));
-		}
+				
+			if(command_arr[i] == "r"){
+				int new_position = ( this.getPosition_id() + 1 );
+				this.setPosition_id(new_position);
+				System.out.println(this.getPosition_id());
+				this.setPosition(positions.get(this.getPosition_id()));
+			}
 		
 		
 		}
