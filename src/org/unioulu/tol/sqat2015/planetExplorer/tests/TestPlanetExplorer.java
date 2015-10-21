@@ -13,4 +13,6 @@ public class TestPlanetExplorer {
 		assertEquals(100,p.getSizeX());
 		assertEquals(100,p.getSizeY());
 	}
+	
+	
 }

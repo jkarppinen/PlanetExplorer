@@ -48,3 +48,8 @@ UnitTestCaseAction 1445428035690 TestPlanetExplorer.java OK
 UnitTestSessionAction 1445428035690 TestPlanetExplorer.testPlanetSizeX OK
 EditAction 1445428052331 TestPlanetExplorer.java 332 1 2 1
 EditAction 1445428059547 TestPlanetExplorer.java 367 1 3 2
+UnitTestCaseAction 1445428061647 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445428061647 TestPlanetExplorer OK
+UnitTestCaseAction 1445428062137 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445428062138 TestPlanetExplorer OK
+EditAction 1445428075909 TestPlanetExplorer.java 373 1 3 2
