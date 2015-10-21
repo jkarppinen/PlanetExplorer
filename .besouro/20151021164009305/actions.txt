@@ -1,0 +1,10 @@
+FileOpenedAction 1445434809719 PlanetExplorer.java 3529 13 31 0
+UnitTestCaseAction 1445434813685 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445434813691 TestPlanetExplorer FAIL
+UnitTestCaseAction 1445434825371 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445434825372 TestPlanetExplorer FAIL
+UnitTestCaseAction 1445434912896 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445434912897 TestPlanetExplorer FAIL
+UnitTestCaseAction 1445434936169 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445434936171 TestPlanetExplorer FAIL
+EditAction 1445435103027 PlanetExplorer.java 3534 13 31 0

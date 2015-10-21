@@ -6,7 +6,7 @@ import java.util.List;
 
 // Before submitting write your ID and finish time here. Your ID is written on project description sheets.
 // ID: 108
-// Finish time: 
+// Finish time: 16:45
 public class PlanetExplorer {
 	private int locationX;
 	private int locationY;
