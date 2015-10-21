@@ -91,6 +91,7 @@ public class PlanetExplorer {
 			return "("+this.getLocationX()+","+this.getLocationY()+",N)";
 		}
 		if(command == "r"){
+			
 			this.setPosition("E");
 		}
 		/* The command string is composed of "f" (forward), "b" (backward), "l" (left) and "r" (right)
