@@ -98,6 +98,7 @@ public class PlanetExplorer {
 			this.setPosition(positions.get(new_position));
 		}
 		
+		System.out.println(this.getPosition());
 		
 		}
 		return "("+this.getLocationX()+","+this.getLocationY()+","+positions.get(this.getPosition_id())+")";

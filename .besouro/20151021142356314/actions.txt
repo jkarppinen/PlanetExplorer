@@ -343,3 +343,6 @@ EditAction 1445430634061 PlanetExplorer.java 3330 14 23 0
 UnitTestCaseAction 1445430635610 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1445430635610 TestPlanetExplorer.initTurnRightTwiceGetPosition FAIL
 EditAction 1445430642927 PlanetExplorer.java 3289 14 23 0
+UnitTestCaseAction 1445430643246 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445430643246 TestPlanetExplorer.initTurnRightTwiceGetPosition FAIL
+EditAction 1445430665358 PlanetExplorer.java 3332 14 23 0
