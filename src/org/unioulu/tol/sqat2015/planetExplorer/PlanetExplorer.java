@@ -94,11 +94,13 @@ public class PlanetExplorer {
 			
 		if(command_arr[i] == "r"){
 			int new_position = ( this.getPosition_id() + 1 ) % 4;
-			System.out.println("i:"+i);
-			System.out.println("pos:"+new_position);
 			this.setPosition_id(new_position);
 			this.setPosition(positions.get(new_position));
 		}
+		
+
+		System.out.println("i:"+i);
+		System.out.println("pos:"+new_position);
 		
 		}
 		return "("+this.getLocationX()+","+this.getLocationY()+","+positions.get(this.getPosition_id())+")";
