@@ -8,7 +8,7 @@ import java.util.List;
 // ID: 108
 // Finish time: 
 public class PlanetExplorer {
-	private int locationX = 0;
+	private int locationX;
 	private int locationY = 0;
 	private int planetSizeX;
 	private int planetSizeY;
