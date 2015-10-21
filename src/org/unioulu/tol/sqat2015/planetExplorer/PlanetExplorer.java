@@ -52,7 +52,9 @@ public class PlanetExplorer {
 	public PlanetExplorer(int x, int y, String obstacles){
 		this.setPlanetSizeX(x);
 		this.setPlanetSizeY(y);
-		
+		this.locationX = 0;
+		this.locationY = 0;
+		this.position_id = 0;
 		/*	x and y represent the size of the grid.
 	 *  Obstacles is a String formatted as follows: "(obs1_x,obs1_y)(obs2_x,obs2_y)...(obsN_x,obsN_y)" with no white spaces. 
 	 *  
