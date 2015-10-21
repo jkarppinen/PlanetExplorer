@@ -12,6 +12,7 @@ public class PlanetExplorer {
 	private int planetSizeX;
 	private int planetSizeY;
 	private String position = "N";
+	private int position_id = 0;
 	public String getPosition() {
 		return position;
 	}
@@ -70,6 +71,8 @@ public class PlanetExplorer {
 		positions.add("E");
 		positions.add("S");
 		positions.add("W");
+		
+		
 		
 		return 0;
 	}

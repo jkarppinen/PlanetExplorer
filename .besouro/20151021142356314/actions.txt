@@ -206,3 +206,5 @@ RefactoringAction 1445429185061 PlanetExplorer.java RENAME getPositionBy=>void g
 RefactoringAction 1445429186586 PlanetExplorer.java RENAME getPositionById=>void getPositionById() METHOD
 RefactoringAction 1445429191108 PlanetExplorer.java RENAME getPositionById()=>void getPositionById(int) METHOD
 EditAction 1445429204537 PlanetExplorer.java 2828 13 26 0
+RefactoringAction 1445429225964 PlanetExplorer.java ADD int position_id FIELD
+EditAction 1445429227664 PlanetExplorer.java 2867 13 26 0
