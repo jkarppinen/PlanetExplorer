@@ -20,4 +20,5 @@ public class TestPlanetExplorer {
 		PlanetExplorer pe = new PlanetExplorer(100,100,"");
 		assertEquals(0,pe.getLocationY());
 	}
+	
 }
