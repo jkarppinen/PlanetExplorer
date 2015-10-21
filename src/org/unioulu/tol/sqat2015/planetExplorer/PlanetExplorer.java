@@ -83,7 +83,8 @@ public class PlanetExplorer {
 		positions.add("E");
 		positions.add("S");
 		positions.add("W");
-
+		System.out.println("---");
+		
 		if(command.length() == 0){
 			return "("+this.getLocationX()+","+this.getLocationY()+","+positions.get(this.getPosition_id())+")";
 		}
