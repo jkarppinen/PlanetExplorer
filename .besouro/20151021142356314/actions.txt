@@ -363,3 +363,20 @@ UnitTestCaseAction 1445430755783 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1445430755783 TestPlanetExplorer.initTurnRightTwiceGetPosition FAIL
 RefactoringAction 1445430774901 TestPlanetExplorer.java ADD void initTurnRightTwiceGetPosition()/2 METHOD
 EditAction 1445430779614 TestPlanetExplorer.java 1578 8 20 9
+CompilationAction 1445430779872 TestPlanetExplorer.java
+CompilationAction 1445430782916 TestPlanetExplorer.java
+UnitTestCaseAction 1445430784616 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445430784617 TestPlanetExplorer.initTurnRightTwiceGetPositionID FAIL
+UnitTestCaseAction 1445430790399 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445430790399 TestPlanetExplorer.initTurnRightTwiceGetPositionID FAIL
+RefactoringAction 1445430815972 PlanetExplorer.java ADD String direction FIELD
+RefactoringAction 1445430815974 PlanetExplorer.java ADD int direction_id FIELD
+RefactoringAction 1445430815974 PlanetExplorer.java ADD int getdirection_id() METHOD
+RefactoringAction 1445430815975 PlanetExplorer.java ADD void setdirection_id(int) METHOD
+RefactoringAction 1445430815975 PlanetExplorer.java ADD String getdirection() METHOD
+RefactoringAction 1445430815976 PlanetExplorer.java ADD void setdirection(String) METHOD
+RefactoringAction 1445430827481 TestPlanetExplorer.java ADD void initGetdirection() METHOD
+RefactoringAction 1445430827482 TestPlanetExplorer.java ADD void initTurnRightGetdirection() METHOD
+RefactoringAction 1445430827483 TestPlanetExplorer.java ADD void initTurnRightTwiceGetdirection() METHOD
+RefactoringAction 1445430827483 TestPlanetExplorer.java ADD void initTurnRightTwiceGetdirectionID() METHOD
+EditAction 1445430831337 TestPlanetExplorer.java 1588 8 20 9

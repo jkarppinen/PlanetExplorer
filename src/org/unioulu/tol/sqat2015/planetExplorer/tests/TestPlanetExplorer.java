@@ -29,30 +29,30 @@ public class TestPlanetExplorer {
 	}	
 
 	@Test
-	public void initGetPosition(){
+	public void initGetdirection(){
 		PlanetExplorer pe = new PlanetExplorer(100,100,"");
-		assertEquals("N",pe.getPosition());
+		assertEquals("N",pe.getdirection());
 	}
 	
 	@Test
-	public void initTurnRightGetPosition(){
+	public void initTurnRightGetdirection(){
 		PlanetExplorer pe = new PlanetExplorer(100,100,"");
 		pe.executeCommand("r");
-		assertEquals("E",pe.getPosition());
+		assertEquals("E",pe.getdirection());
 	}	
 	
 	@Test
-	public void initTurnRightTwiceGetPosition(){
+	public void initTurnRightTwiceGetdirection(){
 		PlanetExplorer pe = new PlanetExplorer(100,100,"");
 		pe.executeCommand("rr");
-		assertEquals("S",pe.getPosition());
+		assertEquals("S",pe.getdirection());
 	}
 	
 	@Test
-	public void initTurnRightTwiceGetPosition(){
+	public void initTurnRightTwiceGetdirectionID(){
 		PlanetExplorer pe = new PlanetExplorer(100,100,"");
 		pe.executeCommand("rr");
-		assertEquals(2,pe.getPosition_id());
+		assertEquals(2,pe.getdirection_id());
 	}
 
 	@Test
