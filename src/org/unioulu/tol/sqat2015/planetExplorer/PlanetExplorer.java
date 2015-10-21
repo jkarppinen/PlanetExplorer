@@ -1,5 +1,8 @@
 package org.unioulu.tol.sqat2015.planetExplorer;
 
+import java.util.ArrayList;
+import java.util.List;
+
 // Before submitting write your ID and finish time here. Your ID is written on project description sheets.
 // ID: 108
 // Finish time: 
@@ -62,7 +65,12 @@ public class PlanetExplorer {
 	}
 
 	public String executeCommand(String command){
-		List<String> positions = new List<String>();
+		List<String> positions = new ArrayList<String>();
+		positions.add("N");
+		positions.add("E");
+		positions.add("S");
+		positions.add("W");
+		
 		if(command.length() == 0){
 			return "("+this.getLocationX()+","+this.getLocationY()+",N)";
 		}
