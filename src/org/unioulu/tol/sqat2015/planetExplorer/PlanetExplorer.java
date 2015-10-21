@@ -74,7 +74,7 @@ public class PlanetExplorer {
 	}
 
 	public int getPosition2(){
-		int pos = this.getPosition_id()
+		int pos = this.getPosition_id();
 		List<String> positions = new ArrayList<String>();
 		positions.add("N");
 		positions.add("E");
