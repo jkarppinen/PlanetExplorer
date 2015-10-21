@@ -29,8 +29,8 @@ public class PlanetExplorer {
 		positions.add("S");
 		positions.add("W");
 		
-		positions.get(this.getPosition_id());
-		return position;
+		return positions.get(this.getPosition_id());
+		
 	}
 
 	public void setPosition(String position) {
