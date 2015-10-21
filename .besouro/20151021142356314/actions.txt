@@ -359,3 +359,7 @@ UnitTestSessionAction 1445430718953 TestPlanetExplorer.initTurnRightTwiceGetPosi
 EditAction 1445430724629 PlanetExplorer.java 3298 14 23 0
 EditAction 1445430744285 PlanetExplorer.java 3345 14 23 0
 EditAction 1445430753908 PlanetExplorer.java 3377 14 24 0
+UnitTestCaseAction 1445430755783 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445430755783 TestPlanetExplorer.initTurnRightTwiceGetPosition FAIL
+RefactoringAction 1445430774901 TestPlanetExplorer.java ADD void initTurnRightTwiceGetPosition()/2 METHOD
+EditAction 1445430779614 TestPlanetExplorer.java 1578 8 20 9
