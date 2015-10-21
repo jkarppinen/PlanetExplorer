@@ -89,7 +89,7 @@ public class PlanetExplorer {
 		}
 		
 		String[] command_arr = command.split("");
-		for(int i = 0; i<command_arr.length; i++){
+		for(int i = 0; i<command_arr.length - 1; i++){
 			
 			
 		if(command_arr[i] == "r"){
