@@ -9,6 +9,14 @@ public class PlanetExplorer {
 	private int planetSizeX;
 	private int planetSizeY;
 	private String position = "N";
+	public String getPosition() {
+		return position;
+	}
+
+	public void setPosition(String position) {
+		this.position = position;
+	}
+
 	public int getLocationY() {
 		return locationY;
 	}
