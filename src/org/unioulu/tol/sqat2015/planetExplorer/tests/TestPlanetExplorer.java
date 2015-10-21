@@ -29,6 +29,12 @@ public class TestPlanetExplorer {
 	}	
 
 	@Test
+	public void initGetPosition(){
+		PlanetExplorer pe = new PlanetExplorer(100,100,"");
+		assertEquals("N",pe.getPosition());
+	}
+
+	@Test
 	public void initEmptyExecuteCommand(){
 		PlanetExplorer pe = new PlanetExplorer(100,100,"");
 		assertEquals("(0,0,N)",pe.executeCommand(""));
