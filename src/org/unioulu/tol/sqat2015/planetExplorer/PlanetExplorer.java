@@ -7,6 +7,7 @@ public class PlanetExplorer {
 	private int locationX = 0;
 	private int locationY = 0;
 	private int planetSizeX;
+	private int planetSizeY;
 	public int getLocationY() {
 		return locationY;
 	}
