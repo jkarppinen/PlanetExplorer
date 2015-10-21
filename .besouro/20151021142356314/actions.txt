@@ -131,3 +131,8 @@ CompilationAction 1445428497141 TestPlanetExplorer.java
 CompilationAction 1445428506259 TestPlanetExplorer.java
 CompilationAction 1445428506259 TestPlanetExplorer.java
 EditAction 1445428535045 PlanetExplorer.java 1747 6 5 0
+RefactoringAction 1445428543126 PlanetExplorer.java ADD int getPlanetSizeX() METHOD
+RefactoringAction 1445428543128 PlanetExplorer.java ADD void setPlanetSizeX(int) METHOD
+RefactoringAction 1445428543129 PlanetExplorer.java ADD int getPlanetSizeY() METHOD
+RefactoringAction 1445428543129 PlanetExplorer.java ADD void setPlanetSizeY(int) METHOD
+EditAction 1445428553764 PlanetExplorer.java 2095 10 11 0

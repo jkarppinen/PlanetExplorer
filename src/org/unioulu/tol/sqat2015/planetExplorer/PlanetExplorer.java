@@ -26,7 +26,8 @@ public class PlanetExplorer {
 	}
 
 	public PlanetExplorer(int x, int y, String obstacles){
-		
+		this.setPlanetSizeX(x);
+		this.setLocationY(y);
 		
 		/*	x and y represent the size of the grid.
 	 *  Obstacles is a String formatted as follows: "(obs1_x,obs1_y)(obs2_x,obs2_y)...(obsN_x,obsN_y)" with no white spaces. 
@@ -36,6 +37,22 @@ public class PlanetExplorer {
 	 */
 	}
 	
+	public int getPlanetSizeX() {
+		return planetSizeX;
+	}
+
+	public void setPlanetSizeX(int planetSizeX) {
+		this.planetSizeX = planetSizeX;
+	}
+
+	public int getPlanetSizeY() {
+		return planetSizeY;
+	}
+
+	public void setPlanetSizeY(int planetSizeY) {
+		this.planetSizeY = planetSizeY;
+	}
+
 	public String executeCommand(String command){
 		
 		/* The command string is composed of "f" (forward), "b" (backward), "l" (left) and "r" (right)
