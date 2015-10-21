@@ -60,3 +60,22 @@ RefactoringAction 1445428133079 TestPlanetExplorer.java ADD import org.unioulu.t
 CompilationAction 1445428134380 TestPlanetExplorer.java
 CompilationAction 1445428134544 TestPlanetExplorer.java
 EditAction 1445428138808 TestPlanetExplorer.java 560 2 5 2
+CompilationAction 1445428139059 TestPlanetExplorer.java
+RefactoringAction 1445428182368 Planet.java REMOVE Planet.java CLASS
+CompilationAction 1445428182547 TestPlanetExplorer.java
+CompilationAction 1445428182548 TestPlanetExplorer.java
+CompilationAction 1445428182548 TestPlanetExplorer.java
+CompilationAction 1445428186035 TestPlanetExplorer.java
+CompilationAction 1445428186036 TestPlanetExplorer.java
+CompilationAction 1445428186188 TestPlanetExplorer.java
+CompilationAction 1445428186189 TestPlanetExplorer.java
+CompilationAction 1445428186189 TestPlanetExplorer.java
+CompilationAction 1445428189837 TestPlanetExplorer.java
+CompilationAction 1445428189837 TestPlanetExplorer.java
+CompilationAction 1445428190010 TestPlanetExplorer.java
+CompilationAction 1445428190010 TestPlanetExplorer.java
+CompilationAction 1445428193861 TestPlanetExplorer.java
+CompilationAction 1445428194021 TestPlanetExplorer.java
+CompilationAction 1445428201593 TestPlanetExplorer.java
+CompilationAction 1445428201742 TestPlanetExplorer.java
+EditAction 1445428205701 TestPlanetExplorer.java 337 1 1 0
