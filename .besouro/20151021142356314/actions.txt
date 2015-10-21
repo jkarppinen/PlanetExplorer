@@ -96,3 +96,8 @@ EditAction 1445428342741 PlanetExplorer.java 1514 4 3 0
 UnitTestCaseAction 1445428346094 TestPlanetExplorer.java OK
 UnitTestSessionAction 1445428346094 TestPlanetExplorer OK
 EditAction 1445428353862 TestPlanetExplorer.java 380 1 2 1
+UnitTestCaseAction 1445428355448 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445428355448 TestPlanetExplorer.initPlanetExplorerLocationX OK
+RefactoringAction 1445428358150 TestPlanetExplorer.java ADD void initPlanetExplorerLocationX()/2 METHOD
+RefactoringAction 1445428363165 TestPlanetExplorer.java RENAME initPlanetExplorerLocationX()/2=>void initPlanetExplorerLocationY() METHOD
+EditAction 1445428365021 TestPlanetExplorer.java 531 2 4 2
