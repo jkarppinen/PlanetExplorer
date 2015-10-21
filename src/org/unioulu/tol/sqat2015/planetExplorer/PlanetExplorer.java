@@ -96,7 +96,7 @@ public class PlanetExplorer {
 		
 		String[] command_arr = command.split("(?!^)");
 		System.out.println(command + command_arr.length);
-		for(int i = 1; i<command_arr.length; i++){
+		for(int i = ; i<command_arr.length; i++){
 			
 			if(command_arr[i] == "f"){
 				this.setLocationY(this.getLocationY() + 1);
