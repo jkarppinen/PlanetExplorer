@@ -459,3 +459,7 @@ UnitTestCaseAction 1445431434802 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1445431434802 TestPlanetExplorer FAIL
 EditAction 1445431441305 PlanetExplorer.java 3390 14 28 0
 EditAction 1445431462440 PlanetExplorer.java 3400 14 28 0
+RefactoringAction 1445431476774 TestPlanetExplorer.java ADD void initEmptyExecuteCommand()/2 METHOD
+RefactoringAction 1445431481809 TestPlanetExplorer.java RENAME initEmptyExecuteCommand()/2=>void initExecuteCommand() METHOD
+RefactoringAction 1445431484327 TestPlanetExplorer.java RENAME initExecuteCommand()=>void initGoForwardExecuteCommand() METHOD
+EditAction 1445431491969 TestPlanetExplorer.java 1948 10 25 11

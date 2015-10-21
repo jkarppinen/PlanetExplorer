@@ -69,6 +69,12 @@ public class TestPlanetExplorer {
 		assertEquals("(0,0,N)",pe.executeCommand(""));
 	}
 	
+	@Test
+	public void initGoForwardExecuteCommand(){
+		PlanetExplorer pe = new PlanetExplorer(100,100,"");
+		assertEquals("(3,0,N)",pe.executeCommand("fff"));
+	}
+	
 	
 	
 }
