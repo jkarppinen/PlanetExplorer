@@ -62,6 +62,7 @@ public class PlanetExplorer {
 	}
 
 	public String executeCommand(String command){
+		List<String> positions = new List<String>();
 		if(command.length() == 0){
 			return "("+this.getLocationX()+","+this.getLocationY()+",N)";
 		}
