@@ -88,7 +88,7 @@ public class PlanetExplorer {
 			int new_position = ( this.getPosition_id() + 1 ) ;
 			//System.out.println(new_position);
 			this.setPosition_id(new_position);
-			//this.setPosition(positions.get(new_position));
+			this.setPosition(positions.get(new_position));
 		}
 		if(command.length() == 0){
 			return "("+this.getLocationX()+","+this.getLocationY()+","+positions.get(this.getPosition_id())+")";
@@ -104,6 +104,6 @@ public class PlanetExplorer {
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
 		
-		return null;
+		//return null;
 	}
 }
