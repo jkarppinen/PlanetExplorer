@@ -94,7 +94,7 @@ public class PlanetExplorer {
 			return "("+this.getLocationX()+","+this.getLocationY()+","+positions.get(this.getPosition_id())+")";
 		}
 		
-		String[] command_arr = command.split("");
+		String[] command_arr = command.split("(?!^)");
 		System.out.println(command_arr.length);
 		for(int i = 1; i<command_arr.length; i++){
 			
