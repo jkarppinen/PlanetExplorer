@@ -14,22 +14,22 @@ public class PlanetExplorer {
 	private int locationY = 0;
 	private int planetSizeX;
 	private int planetSizeY;
-	private String direction = "N";
-	private int direction_id = 0;
-	public int getdirection_id() {
-		return direction_id;
+	private String position = "N";
+	private int position_id = 0;
+	public int getPosition_id() {
+		return position_id;
 	}
 
-	public void setdirection_id(int direction_id) {
-		this.direction_id = direction_id;
+	public void setPosition_id(int position_id) {
+		this.position_id = position_id;
 	}
 
-	public String getdirection() {
-		return direction;
+	public String getPosition() {
+		return position;
 	}
 
-	public void setdirection(String direction) {
-		this.direction = direction;
+	public void setPosition(String position) {
+		this.position = position;
 	}
 
 	public int getLocationY() {
@@ -78,15 +78,15 @@ public class PlanetExplorer {
 
 	
 	public String executeCommand(String command){
-		List<String> directions = new ArrayList<String>();
-		directions.add("N");
-		directions.add("E");
-		directions.add("S");
-		directions.add("W");
-		System.out.println("---");
+		List<String> positions = new ArrayList<String>();
+		positions.add("N");
+		positions.add("E");
+		positions.add("S");
+		positions.add("W");
+		
 		
 		if(command.length() == 0){
-			return "("+this.getLocationX()+","+this.getLocationY()+","+directions.get(this.getdirection_id())+")";
+			return "("+this.getLocationX()+","+this.getLocationY()+","+positions.get(this.getPosition_id())+")";
 		}
 		
 		String[] command_arr = command.split("");
@@ -94,15 +94,15 @@ public class PlanetExplorer {
 			
 			
 		if(command_arr[i] == "r"){
-			int new_direction = ( this.getdirection_id() + 1 );
-			this.setdirection_id(new_direction);
-			System.out.println(this.getdirection_id());
-			this.setdirection(directions.get(this.getdirection_id()));
+			int new_position = ( this.getPosition_id() + 1 );
+			this.setPosition_id(new_position);
+			System.out.println(this.getPosition_id());
+			this.setPosition(positions.get(this.getPosition_id()));
 		}
 		
 		
 		}
-		return "("+this.getLocationX()+","+this.getLocationY()+","+directions.get(this.getdirection_id())+")";
+		return "("+this.getLocationX()+","+this.getLocationY()+","+positions.get(this.getPosition_id())+")";
 		
 		/* The command string is composed of "f" (forward), "b" (backward), "l" (left) and "r" (right)
 		 * Example: 
