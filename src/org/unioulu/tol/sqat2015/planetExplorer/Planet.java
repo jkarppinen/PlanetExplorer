@@ -3,6 +3,7 @@ package org.unioulu.tol.sqat2015.planetExplorer;
 public class Planet {
 	private int sizeX;
 	private int sizeY;
+	
 	public int getSizeX() {
 		return sizeX;
 	}
