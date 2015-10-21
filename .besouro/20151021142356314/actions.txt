@@ -380,3 +380,6 @@ RefactoringAction 1445430827482 TestPlanetExplorer.java ADD void initTurnRightGe
 RefactoringAction 1445430827483 TestPlanetExplorer.java ADD void initTurnRightTwiceGetdirection() METHOD
 RefactoringAction 1445430827483 TestPlanetExplorer.java ADD void initTurnRightTwiceGetdirectionID() METHOD
 EditAction 1445430831337 TestPlanetExplorer.java 1588 8 20 9
+CompilationAction 1445430831611 TestPlanetExplorer.java
+CompilationAction 1445430831612 TestPlanetExplorer.java
+EditAction 1445430840087 PlanetExplorer.java 3408 14 24 0
