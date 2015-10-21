@@ -95,7 +95,7 @@ public class PlanetExplorer {
 		}
 		
 		String[] command_arr = command.split("");
-		System.out.println(command_arr.);
+		System.out.println(command_arr.toString());
 		for(int i = 1; i<command_arr.length; i++){
 			
 				
