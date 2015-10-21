@@ -14,6 +14,7 @@ public class PlanetExplorer {
 	private int planetSizeY;
 	private String position = "N";
 	private int position_id = 0;
+	
 	public int getPosition_id() {
 		return position_id;
 	}
