@@ -81,6 +81,10 @@ public class PlanetExplorer {
 		positions.add("S");
 		positions.add("W");
 		
+		if(pos < 0){
+			this.setPosition_id(4 + pos);
+			pos = this.getPosition_id();
+		}
 		
 		
 		return 0;
