@@ -83,12 +83,9 @@ public class PlanetExplorer {
 		positions.add("E");
 		positions.add("S");
 		positions.add("W");
-		ListIterator<String> listIterator = (ListIterator<String>) positions.listIterator(positions.size());
-		
-		int current = Arrays.asList(positions).indexOf(this.getPosition());
-		
+
 		if(command.length() == 0){
-			return "("+this.getLocationX()+","+this.getLocationY()+",N)";
+			return "("+this.getLocationX()+","+this.getLocationY()+","+positions.get(this.getPosition_id()))";
 		}
 		if(command == "r"){
 			int new_position = ( this.getPosition_id() + 1 ) % 4;
