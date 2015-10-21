@@ -88,11 +88,12 @@ public class PlanetExplorer {
 			return "("+this.getLocationX()+","+this.getLocationY()+","+positions.get(this.getPosition_id())+")";
 		}
 		
-		for(int i = 0; i<command.length(); i++){
-			String command_char = command[i];
+		String[] command_arr = command.split("");
+		for(int i = 0; i<command_arr.length; i++){
+			
+			
 		
-		
-		if(command == "r"){
+		if(command_arr[i] == "r"){
 			int new_position = ( this.getPosition_id() + 1 ) ;
 			//System.out.println(new_position);
 			this.setPosition_id(new_position);
