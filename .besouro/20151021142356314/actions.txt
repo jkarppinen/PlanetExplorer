@@ -17,3 +17,5 @@ RefactoringAction 1445427776340 TestPlanetExplorer.java RENAME testPlanetC()=>vo
 RefactoringAction 1445427781488 TestPlanetExplorer.java RENAME testPlanetCreation()=>void testPlanetCreatio() METHOD
 RefactoringAction 1445427782500 TestPlanetExplorer.java RENAME testPlanetCreatio()=>void testPlanetCreation() METHOD
 EditAction 1445427867237 TestPlanetExplorer.java 280 1 2 1
+CompilationAction 1445427867420 TestPlanetExplorer.java
+EditAction 1445427870432 Planet.java 83 0 0 0
