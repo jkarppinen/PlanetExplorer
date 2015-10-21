@@ -26,6 +26,13 @@ public class TestPlanetExplorer {
 		PlanetExplorer pe = new PlanetExplorer(100,100,"");
 		assertEquals(100,pe.getPlanetSizeX());
 		assertEquals(100,pe.getPlanetSizeY());
+	}	
+
+	@Test
+	public void initEmptyExecuteCommand(){
+		PlanetExplorer pe = new PlanetExplorer(100,100,"");
+		assertEquals(100,pe.getPlanetSizeX());
+		assertEquals("0,0,N",pe.executeCommand(""));
 	}
 	
 	

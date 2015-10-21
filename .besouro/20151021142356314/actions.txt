@@ -137,3 +137,11 @@ RefactoringAction 1445428543129 PlanetExplorer.java ADD int getPlanetSizeY() MET
 RefactoringAction 1445428543129 PlanetExplorer.java ADD void setPlanetSizeY(int) METHOD
 EditAction 1445428553764 PlanetExplorer.java 2095 10 11 0
 EditAction 1445428558187 PlanetExplorer.java 2097 10 11 0
+UnitTestCaseAction 1445428562033 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445428562033 TestPlanetExplorer OK
+RefactoringAction 1445428584153 TestPlanetExplorer.java ADD void getPlanetSizeX()/2 METHOD
+RefactoringAction 1445428620189 TestPlanetExplorer.java RENAME getPlanetSizeX()/2=><initializer /1> null
+RefactoringAction 1445428663208 TestPlanetExplorer.java RENAME <initializer /1>=>void execute() METHOD
+RefactoringAction 1445428664224 TestPlanetExplorer.java RENAME execute()=>void executeC() METHOD
+RefactoringAction 1445428674741 TestPlanetExplorer.java RENAME executeC()=>void initEmptyExecuteCommand() METHOD
+EditAction 1445428690338 TestPlanetExplorer.java 929 4 10 6
