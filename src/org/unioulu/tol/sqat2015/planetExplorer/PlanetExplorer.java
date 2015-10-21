@@ -12,7 +12,7 @@ public class PlanetExplorer {
 	private int locationY;
 	private int planetSizeX;
 	private int planetSizeY;
-	private int position_id = 0;
+	private int position_id;
 	
 	public int getPosition_id() {
 		return position_id;
