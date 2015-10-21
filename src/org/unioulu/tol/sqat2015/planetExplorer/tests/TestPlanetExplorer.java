@@ -52,7 +52,7 @@ public class TestPlanetExplorer {
 	public void initTurnRightTwiceGetPositionId(){
 		PlanetExplorer pe = new PlanetExplorer(100,100,"");
 		pe.executeCommand("r");
-		assertEquals(2,pe.getPosition_id());
+		assertEquals(1,pe.getPosition_id());
 	}	
 	
 	@Test
