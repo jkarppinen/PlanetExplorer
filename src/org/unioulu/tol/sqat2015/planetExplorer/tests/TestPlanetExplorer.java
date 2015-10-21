@@ -8,7 +8,7 @@ import org.unioulu.tol.sqat2015.planetExplorer.Planet;
 public class TestPlanetExplorer {
 
 	@Test
-	public void testPlanetCreation() {
+	public void testPlanetSize() {
 		Planet p = new Planet(100,100);
 		assertEquals(100,p.getSizeX());
 	}

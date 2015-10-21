@@ -39,3 +39,7 @@ RefactoringAction 1445427981848 Planet.java ADD void setSizeY(int) METHOD
 EditAction 1445428001447 Planet.java 417 5 6 0
 EditAction 1445428002509 Planet.java 420 5 6 0
 EditAction 1445428005056 Planet.java 423 5 6 0
+FileOpenedAction 1445428014142 BowlingGame.java 1446 7 11 0
+UnitTestCaseAction 1445428023508 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445428023508 TestPlanetExplorer OK
+EditAction 1445428030861 TestPlanetExplorer.java 332 1 2 1
