@@ -9,7 +9,7 @@ import java.util.List;
 // Finish time: 
 public class PlanetExplorer {
 	private int locationX;
-	private int locationY = 0;
+	private int locationY;
 	private int planetSizeX;
 	private int planetSizeY;
 	private int position_id = 0;
