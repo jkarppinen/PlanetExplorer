@@ -530,3 +530,17 @@ UnitTestCaseAction 1445432166674 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1445432166674 TestPlanetExplorer FAIL
 EditAction 1445432172575 PlanetExplorer.java 3477 14 29 0
 EditAction 1445432173716 PlanetExplorer.java 3475 14 29 0
+CompilationAction 1445432174002 PlanetExplorer.java
+CompilationAction 1445432175603 PlanetExplorer.java
+UnitTestCaseAction 1445432178544 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445432178545 TestPlanetExplorer FAIL
+UnitTestCaseAction 1445432197522 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445432197522 TestPlanetExplorer FAIL
+UnitTestCaseAction 1445432205933 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445432205933 TestPlanetExplorer FAIL
+RefactoringAction 1445432236087 TestPlanetExplorer.java ADD void initGoForwardAndTurn()/2 METHOD
+RefactoringAction 1445432241624 TestPlanetExplorer.java RENAME initGoForwardAndTurn()/2=>void getDirections() METHOD
+RefactoringAction 1445432244644 TestPlanetExplorer.java RENAME getDirections()=>void getDirectionsLetter() METHOD
+RefactoringAction 1445432253163 TestPlanetExplorer.java ADD import java.util.ArrayList IMPORT
+RefactoringAction 1445432253163 TestPlanetExplorer.java ADD import java.util.List IMPORT
+EditAction 1445432264756 TestPlanetExplorer.java 2403 12 33 13

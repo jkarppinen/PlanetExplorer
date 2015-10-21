@@ -2,6 +2,9 @@ package org.unioulu.tol.sqat2015.planetExplorer.tests;
 
 import static org.junit.Assert.*;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import org.junit.Test;
 import org.unioulu.tol.sqat2015.planetExplorer.PlanetExplorer;
 
@@ -79,6 +82,16 @@ public class TestPlanetExplorer {
 	public void initGoForwardAndTurn(){
 		PlanetExplorer pe = new PlanetExplorer(100,100,"");
 		assertEquals("(2,2,E)",pe.executeCommand("ffrff"));
+	}	
+	
+	@Test
+	public void getDirectionsLetter(){
+		List<String> positions = new ArrayList<String>();
+		positions.add("N");
+		positions.add("E");
+		positions.add("S");
+		positions.add("W");
+		assertEquals("S",positions.get(2));
 	}
 	
 	
