@@ -37,7 +37,8 @@ public class TestPlanetExplorer {
 	@Test
 	public void initTurnRightGetPosition(){
 		PlanetExplorer pe = new PlanetExplorer(100,100,"");
-		assertEquals("N",pe.getPosition());
+		pe.executeCommand("r");
+		assertEquals("E",pe.getPosition());
 	}
 
 	@Test
