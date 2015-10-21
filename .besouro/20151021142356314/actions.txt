@@ -19,3 +19,5 @@ RefactoringAction 1445427782500 TestPlanetExplorer.java RENAME testPlanetCreatio
 EditAction 1445427867237 TestPlanetExplorer.java 280 1 2 1
 CompilationAction 1445427867420 TestPlanetExplorer.java
 EditAction 1445427870432 Planet.java 83 0 0 0
+RefactoringAction 1445427885973 Planet.java ADD Planet() METHOD
+EditAction 1445427886557 Planet.java 107 1 0 0
