@@ -173,3 +173,7 @@ CompilationAction 1445428896443 TestPlanetExplorer.java
 RefactoringAction 1445428908062 PlanetExplorer.java ADD String getPosition() METHOD
 RefactoringAction 1445428908063 PlanetExplorer.java ADD void setPosition(String) METHOD
 EditAction 1445428908439 PlanetExplorer.java 2362 12 14 0
+UnitTestCaseAction 1445428913807 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445428913807 TestPlanetExplorer OK
+RefactoringAction 1445428926093 TestPlanetExplorer.java ADD void initGetPosition()/2 METHOD
+EditAction 1445428930913 TestPlanetExplorer.java 1181 6 13 7
