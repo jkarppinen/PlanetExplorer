@@ -24,7 +24,7 @@ public class TestPlanetExplorer {
 	@Test
 	public void getPlanetSizeX(){
 		PlanetExplorer pe = new PlanetExplorer(100,100,"");
-		assertEquals(0,pe.getPlanetSizeX());
+		assertEquals(100,pe.getPlanetSizeX());
 	}
 	
 	
