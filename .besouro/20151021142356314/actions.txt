@@ -416,3 +416,6 @@ UnitTestSessionAction 1445431023059 Rerun org.unioulu.tol.sqat2015.planetExplore
 UnitTestCaseAction 1445431026622 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1445431026623 TestPlanetExplorer.initTurnRightTwiceExecCommand FAIL
 EditAction 1445431042215 PlanetExplorer.java 3358 14 23 0
+UnitTestCaseAction 1445431058568 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445431058568 TestPlanetExplorer.initTurnRightTwiceExecCommand FAIL
+EditAction 1445431179398 PlanetExplorer.java 3217 14 23 0

@@ -1,10 +1,8 @@
 package org.unioulu.tol.sqat2015.planetExplorer;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
-import com.sun.xml.internal.bind.v2.runtime.reflect.ListIterator;
 
 // Before submitting write your ID and finish time here. Your ID is written on project description sheets.
 // ID: 108
@@ -96,7 +94,6 @@ public class PlanetExplorer {
 			if(command_arr[i] == "r"){
 				int new_position = ( this.getPosition_id() + 1 );
 				this.setPosition_id(new_position);
-				System.out.println(this.getPosition_id());
 				this.setPosition(positions.get(this.getPosition_id()));
 			}
 		
