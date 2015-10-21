@@ -56,7 +56,7 @@ public class TestPlanetExplorer {
 	}	
 	
 	@Test
-	public void initTurnRightTwiceGetNullCommand(){
+	public void initTurnRightTwiceExecCommand(){
 		PlanetExplorer pe = new PlanetExplorer(100,100,"");
 		pe.executeCommand("rr");
 		
