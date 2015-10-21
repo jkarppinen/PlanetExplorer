@@ -93,7 +93,6 @@ public class PlanetExplorer {
 		}
 		
 		String[] command_arr = command.split("(?!^)");
-		System.out.println(command + command_arr.length + " " + new_position);
 		for(int i = 0; i < command_arr.length; i++){
 			
 			if(command_arr[i] == "f"){
@@ -104,7 +103,8 @@ public class PlanetExplorer {
 				new_position = this.getPosition_id() + 1;
 				this.setPosition_id(new_position);
 			}
-		
+
+			System.out.println(command + command_arr.length + " " + new_position);
 		
 		}
 		return "("+this.getLocationX()+","+this.getLocationY()+","+positions.get(this.getPosition_id())+")";
