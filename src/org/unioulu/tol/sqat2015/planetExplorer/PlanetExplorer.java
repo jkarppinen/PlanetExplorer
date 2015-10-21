@@ -64,6 +64,16 @@ public class PlanetExplorer {
 		this.planetSizeY = planetSizeY;
 	}
 
+	public int getPositionById(int id){
+		List<String> positions = new ArrayList<String>();
+		positions.add("N");
+		positions.add("E");
+		positions.add("S");
+		positions.add("W");
+		
+		return 0;
+	}
+	
 	public String executeCommand(String command){
 		List<String> positions = new ArrayList<String>();
 		positions.add("N");

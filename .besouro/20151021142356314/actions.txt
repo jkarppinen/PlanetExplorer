@@ -201,3 +201,8 @@ CompilationAction 1445429115435 PlanetExplorer.java
 RefactoringAction 1445429118791 PlanetExplorer.java ADD import java.util.ArrayList IMPORT
 CompilationAction 1445429119726 PlanetExplorer.java
 EditAction 1445429149986 PlanetExplorer.java 2621 12 20 0
+RefactoringAction 1445429183036 PlanetExplorer.java ADD void getPositionBy FIELD
+RefactoringAction 1445429185061 PlanetExplorer.java RENAME getPositionBy=>void getPositionById FIELD
+RefactoringAction 1445429186586 PlanetExplorer.java RENAME getPositionById=>void getPositionById() METHOD
+RefactoringAction 1445429191108 PlanetExplorer.java RENAME getPositionById()=>void getPositionById(int) METHOD
+EditAction 1445429204537 PlanetExplorer.java 2828 13 26 0
