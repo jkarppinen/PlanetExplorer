@@ -86,6 +86,7 @@ public class PlanetExplorer {
 			pos = this.getPosition_id();
 		}
 		
+		return positions[pos];
 		
 		
 		return 0;
