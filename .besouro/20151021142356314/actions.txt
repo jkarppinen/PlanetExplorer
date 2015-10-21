@@ -110,3 +110,6 @@ CompilationAction 1445428374431 TestPlanetExplorer.java
 RefactoringAction 1445428383605 PlanetExplorer.java ADD int getLocationY() METHOD
 RefactoringAction 1445428383607 PlanetExplorer.java ADD void setLocationY(int) METHOD
 EditAction 1445428384435 PlanetExplorer.java 1681 6 5 0
+UnitTestCaseAction 1445428386548 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445428386549 TestPlanetExplorer OK
+EditAction 1445428413159 TestPlanetExplorer.java 533 2 4 2
