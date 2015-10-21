@@ -1,0 +1,6 @@
+FileOpenedAction 1445426636631 PlanetExplorer.java 1342 2 1 0
+RefactoringAction 1445427534531 PlanetExplorer.java ADD int location_y FIELD
+RefactoringAction 1445427536054 PlanetExplorer.java ADD int location_x FIELD
+RefactoringAction 1445427575173 PlanetExplorer.java REMOVE location_y FIELD
+RefactoringAction 1445427575174 PlanetExplorer.java REMOVE location_x FIELD
+EditAction 1445427587084 PlanetExplorer.java 1350 2 1 0
