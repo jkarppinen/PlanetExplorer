@@ -88,7 +88,7 @@ public class PlanetExplorer {
 			return "("+this.getLocationX()+","+this.getLocationY()+","+positions.get(this.getPosition_id())+")";
 		}
 		if(command == "r"){
-			int new_position = ( this.getPosition_id() + 1 ) % 4;
+			int new_position = ( this.getPosition_id() + 1 ) ;
 			this.setPosition_id(new_position);
 			//this.setPosition(positions.get(new_position));
 		}
