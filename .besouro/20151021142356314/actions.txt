@@ -127,3 +127,7 @@ RefactoringAction 1445428475431 PlanetExplorer.java ADD int planetSizeX FIELD
 EditAction 1445428480689 PlanetExplorer.java 1708 6 5 0
 CompilationAction 1445428480805 TestPlanetExplorer.java
 EditAction 1445428497023 PlanetExplorer.java 1735 6 5 0
+CompilationAction 1445428497141 TestPlanetExplorer.java
+CompilationAction 1445428506259 TestPlanetExplorer.java
+CompilationAction 1445428506259 TestPlanetExplorer.java
+EditAction 1445428535045 PlanetExplorer.java 1747 6 5 0
