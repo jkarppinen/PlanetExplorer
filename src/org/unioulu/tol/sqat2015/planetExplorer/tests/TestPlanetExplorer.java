@@ -58,7 +58,7 @@ public class TestPlanetExplorer {
 	@Test
 	public void initTurnRightTwiceExecCommand(){
 		PlanetExplorer pe = new PlanetExplorer(100,100,"");
-		pe.executeCommand("rr");
+		pe.executeCommand("rrr");
 		
 		assertEquals("(0,0,S)",pe.executeCommand(""));
 	}
