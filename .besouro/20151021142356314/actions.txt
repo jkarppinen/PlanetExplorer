@@ -31,3 +31,9 @@ UnitTestSessionAction 1445427921171 TestPlanetExplorer FAIL
 RefactoringAction 1445427941782 Planet.java ADD int sizeX FIELD
 RefactoringAction 1445427941783 Planet.java ADD int sizeY FIELD
 EditAction 1445427957206 Planet.java 193 1 2 0
+CompilationAction 1445427957423 TestPlanetExplorer.java
+RefactoringAction 1445427981846 Planet.java ADD int getSizeX() METHOD
+RefactoringAction 1445427981847 Planet.java ADD void setSizeX(int) METHOD
+RefactoringAction 1445427981847 Planet.java ADD int getSizeY() METHOD
+RefactoringAction 1445427981848 Planet.java ADD void setSizeY(int) METHOD
+EditAction 1445428001447 Planet.java 417 5 6 0
