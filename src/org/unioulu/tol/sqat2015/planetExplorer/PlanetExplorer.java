@@ -8,7 +8,7 @@ public class PlanetExplorer {
 	private int locationY = 0;
 	private int planetSizeX;
 	private int planetSizeY;
-	
+	private String position = "N";
 	public int getLocationY() {
 		return locationY;
 	}
