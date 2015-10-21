@@ -86,7 +86,7 @@ public class PlanetExplorer {
 		positions.add("E");
 		positions.add("S");
 		positions.add("W");
-		int new_position;
+		int new_position = 0;
 		
 		if(command.length() == 0){
 			return "("+this.getLocationX()+","+this.getLocationY()+","+positions.get(this.getPosition_id())+")";
