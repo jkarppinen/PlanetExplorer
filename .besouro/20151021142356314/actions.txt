@@ -80,3 +80,8 @@ CompilationAction 1445428201593 TestPlanetExplorer.java
 CompilationAction 1445428201742 TestPlanetExplorer.java
 EditAction 1445428205701 TestPlanetExplorer.java 337 1 1 0
 EditAction 1445428225223 TestPlanetExplorer.java 333 1 1 0
+UnitTestCaseAction 1445428226639 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445428226640 TestPlanetExplorer OK
+UnitTestCaseAction 1445428286433 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445428286433 TestPlanetExplorer.initPlanetExplorerLocation OK
+EditAction 1445428311907 TestPlanetExplorer.java 379 1 2 1

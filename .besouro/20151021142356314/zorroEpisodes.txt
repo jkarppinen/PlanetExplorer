@@ -2,3 +2,5 @@
 1445428035690 regression 1 12 true
 1445428061647 test-addition 1 25 true
 1445428062138 regression 1 0 true
+1445428226640 test-addition 1 164 true
+1445428286433 regression 1 59 true

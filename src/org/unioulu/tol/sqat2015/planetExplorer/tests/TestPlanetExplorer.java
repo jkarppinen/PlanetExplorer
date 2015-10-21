@@ -10,7 +10,8 @@ public class TestPlanetExplorer {
 
 	
 	@Test
-	public void initPlanetExplorer(){
+	public void initPlanetExplorerLocation(){
 		PlanetExplorer pe = new PlanetExplorer(100,100,"");
+		assertEquals(0,pe.getLocationX());
 	}
 }
