@@ -86,7 +86,7 @@ public class PlanetExplorer {
 		positions.add("E");
 		positions.add("S");
 		positions.add("W");
-		
+		int new_position;
 		
 		if(command.length() == 0){
 			return "("+this.getLocationX()+","+this.getLocationY()+","+positions.get(this.getPosition_id())+")";
@@ -101,7 +101,7 @@ public class PlanetExplorer {
 			}
 			System.out.println(command + " " + command_arr[i] + " " + i);
 			if(command_arr[i] == "r"){
-				int new_position = this.getPosition_id() + 1;
+				new_position = this.getPosition_id() + 1;
 				this.setPosition_id(new_position);
 			}
 		
