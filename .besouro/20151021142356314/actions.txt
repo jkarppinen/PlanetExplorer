@@ -464,3 +464,6 @@ RefactoringAction 1445431481809 TestPlanetExplorer.java RENAME initEmptyExecuteC
 RefactoringAction 1445431484327 TestPlanetExplorer.java RENAME initExecuteCommand()=>void initGoForwardExecuteCommand() METHOD
 EditAction 1445431491969 TestPlanetExplorer.java 1948 10 25 11
 EditAction 1445431526044 PlanetExplorer.java 3481 14 28 0
+UnitTestCaseAction 1445431533082 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445431533083 TestPlanetExplorer FAIL
+EditAction 1445431561588 PlanetExplorer.java 3481 14 28 0

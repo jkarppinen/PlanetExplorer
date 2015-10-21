@@ -98,7 +98,7 @@ public class PlanetExplorer {
 		for(int i = 1; i<command_arr.length; i++){
 			
 			if(command_arr[i] == "f"){
-				this.setLocationX(this.getLocationX() + 1);
+				this.setLocationY(this.getLocationY() + 1);
 			}
 			
 			if(command_arr[i] == "r"){
