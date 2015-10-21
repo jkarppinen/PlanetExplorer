@@ -467,3 +467,11 @@ EditAction 1445431526044 PlanetExplorer.java 3481 14 28 0
 UnitTestCaseAction 1445431533082 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1445431533083 TestPlanetExplorer FAIL
 EditAction 1445431561588 PlanetExplorer.java 3481 14 28 0
+UnitTestCaseAction 1445431570252 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445431570253 TestPlanetExplorer FAIL
+UnitTestCaseAction 1445431635786 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445431635787 TestPlanetExplorer FAIL
+RefactoringAction 1445431759912 TestPlanetExplorer.java ADD void initGoForwardExecuteCommand()/2 METHOD
+RefactoringAction 1445431775932 TestPlanetExplorer.java RENAME initGoForwardExecuteCommand()/2=>void initGo() METHOD
+RefactoringAction 1445431780452 TestPlanetExplorer.java RENAME initGo()=>void initGoForwardAndTurn() METHOD
+EditAction 1445431789055 TestPlanetExplorer.java 2109 11 27 12
