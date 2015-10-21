@@ -1,6 +1,7 @@
 package org.unioulu.tol.sqat2015.planetExplorer;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 import com.sun.xml.internal.bind.v2.runtime.reflect.ListIterator;
@@ -85,6 +86,7 @@ public class PlanetExplorer {
 		ListIterator<String> listIterator = (ListIterator<String>) positions.listIterator(positions.size());
 		
 		int current = Arrays.asList(positions).indexOf(this.getPosition());
+		
 		if(command.length() == 0){
 			return "("+this.getLocationX()+","+this.getLocationY()+",N)";
 		}
