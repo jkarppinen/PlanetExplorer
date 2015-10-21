@@ -90,7 +90,7 @@ public class PlanetExplorer {
 		if(command == "r"){
 			int new_position = ( this.getPosition_id() + 1 ) % 4;
 			this.setPosition_id(new_position);
-			this.setPosition(positions.get(new_position));
+			//this.setPosition(positions.get(new_position));
 		}
 		/* The command string is composed of "f" (forward), "b" (backward), "l" (left) and "r" (right)
 		 * Example: 
